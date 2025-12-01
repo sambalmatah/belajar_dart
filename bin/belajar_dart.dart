@@ -46,6 +46,23 @@ void main(List<String> arguments) {
   // lastName = 'Angga';        // tidak bisa dilakukan pengubahan nilai
 
   print('Helo $firstName $lastName');
+
+  // Membuat datatype dynamic untuk dart
+  var x;  // dynamic
+  x = 7;
+  x = 'Dart is great';
+
+  // Cetak datatype
+  print(x);
+
+  // Membuat datatype int untuk dart
+  var y = 7;  // int
+  // kode dibawah ini error karena berubah dari int ke string
+  // y = 'Dart is great';
+
+  // Cetak datatype
+  print(y);
+
 }
 
 int calculete() {
