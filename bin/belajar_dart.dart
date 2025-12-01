@@ -1,4 +1,6 @@
 // import belajar_dart dari folder lib
+import 'dart:math';
+
 import 'package:belajar_dart/belajar_dart.dart' as belajar_dart;
 
 // // buat void main baru yang menampilkan Hello World dan interpolation .calculate
@@ -31,9 +33,23 @@ void main(List<String> arguments) {
   // Cetak ke layar
   print(myAge);
 
-}
+  // Membuat constant untuk variabel yang tidak berubah
+  const num pi = 3.14;
+  var radius = 7;
+  // Cetak rumus ke layar
+  print('Luas lingkarang dengan radius $radius = ${calculateCircleArea(radius)}');
 
+  // Membuat final untuk variabel tetap yang dapat diisi ditengah berjalan
+  final firstName = 'Achmad';
+  final lastName = 'Ilham';
+
+  // lastName = 'Angga';        // tidak bisa dilakukan pengubahan nilai
+
+  print('Helo $firstName $lastName');
+}
 
 int calculete() {
   return 6 * 7;
 }
+
+num calculateCircleArea(num radius) => pi * radius *radius;
