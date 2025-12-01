@@ -20,6 +20,17 @@ void main(List<String> arguments) {
   print('Hello Dart! Dart is great.');
   // Testing documentation comment with [].
   print('6 * 7 = ${calculete()}');
+
+  // Membuat variabel untuk teks
+  var greetings = 'Hello Dart!';
+  // Cetak ke layar
+  print(greetings);
+
+  // Membuat variabel untuk angka
+  var myAge = 29;
+  // Cetak ke layar
+  print(myAge);
+
 }
 
 
