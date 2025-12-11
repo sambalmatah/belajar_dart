@@ -1,9 +1,11 @@
 import '24.animal.dart';
 
 void main() {
-  var dicodingCat = Animal();
+  // membuat objek dengan menyertakan nilai
+  var dicodingCat = Animal('Grey', 2, 4.3);
 
-  dicodingCat.name = 'Grey';
-  dicodingCat.age = 2;
-  dicodingCat.weight = 4.3;
+  print(dicodingCat.name);
+  print(dicodingCat.age);
+  print(dicodingCat.weight);
+
 }
